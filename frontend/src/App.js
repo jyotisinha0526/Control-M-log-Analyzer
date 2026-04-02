@@ -6,7 +6,6 @@ function App() {
 	const [query, setQuery] = useState("");
 	const [result, setResult] = useState(null);
 	
-	  // 🔥 👉 YAHAN LIKHNA HAI (STEP 4)
   const sendQuery = async () => {
     if (!query) {
       alert("Please enter a query");
