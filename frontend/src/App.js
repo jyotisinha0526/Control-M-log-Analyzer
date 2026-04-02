@@ -14,7 +14,7 @@ function App() {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/ai", {
+      const res = await axios.post("https://control-m-log-analyzer.onrender.com", {
         query: query
       });
 
