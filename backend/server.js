@@ -70,9 +70,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY, baseURL: "https://models.inference.ai.azure.com"
 });
   
-// const openai = new OpenAI({
- // apiKey: process.env.OPENAI_API_KEY|| "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", baseURL:"https://models.inference.ai.azure.com"
-//}); 
+ 
 
 app.post("/analyze", upload.single("logfile"), async (req, res) => {
   const filePath = req.file.path;
