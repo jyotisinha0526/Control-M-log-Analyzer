@@ -38,3 +38,11 @@
 
 ## ⚙️ Installation & Setup
 
+💡 Future Enhancements
+📊 Advanced charts & analytics
+📄 Export report as PDF
+💬 Chat-based AI assistant
+🔎 Auto-fetch BMC articles
+
+👩‍💻 Author
+Jyoti Sinha
