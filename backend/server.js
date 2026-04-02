@@ -66,9 +66,9 @@ If you need further assistance or encounter any issues during implementation, pl
 
 const upload = multer({ dest: "uploads/" });
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-});
+//const openai = new OpenAI({
+ // apiKey: process.env.OPENAI_API_KEY
+//});
   
  
 
