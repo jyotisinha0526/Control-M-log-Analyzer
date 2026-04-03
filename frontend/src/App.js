@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function App() {
-
+	
 	const [query, setQuery] = useState("");
 	const [result, setResult] = useState(null);
 	
@@ -11,11 +11,17 @@ function App() {
       alert("Please enter a query");
       return;
     }
-
+		const formData = new FormData();
+        formData.append("query", query);
+  
     try {
-      const res = await axios.post("https://control-m-log-analyzer.onrender.com", {
-        query: query
-      });
+      const res = await axios.post(
+			"https://control-m-log-analyzer.onrender.com/ai",
+			{ query }
+			
+				
+			
+		 );
 
       setResult({
 		aiText: res.data.aiText
