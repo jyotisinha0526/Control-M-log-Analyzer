@@ -54,7 +54,7 @@ function App() {
     <h2 style={{ color: "#4FC3F7" }}>Control-M Assistance</h2>
 
     <div>
-      <button style={{ marginRight: 10 }}>Upload Files</button>
+      <button style={{ marginRight: 10 }}>Download PDF</button>
       <button>Logout</button>
     </div>
   </div>
@@ -106,7 +106,7 @@ function App() {
           color: "#fff"
         }}
       >
-        Share Screen for AI Analysis
+        UploadFile
       </button>
     </div>
   </div>
