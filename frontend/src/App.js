@@ -120,7 +120,7 @@ function App() {
     <h3 style={{ color: "#4FC3F7" }}>📂 AI Response</h3>
 	{/* 🔍 BMC Search Link */}
 <a
-  href={`https://webapps.bmc.com/helixsupport/assets/search.html#q=${encodeURIComponent(query)}`}
+  //href={#}
   target="_blank"
   rel="noreferrer"
   style={{
