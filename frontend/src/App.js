@@ -131,7 +131,7 @@ function App() {
     fontSize: "14px"
   }}
 >
-  //🔍 View related BMC articles
+  🔍 View related BMC articles
 </a>
 	<div
 		style={{
